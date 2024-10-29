@@ -1,0 +1,25 @@
+.how_to_order {  
+
+    img {
+        width: 128px;
+    }
+
+    >div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.menu_to_order {
+    >div {
+        font-family: 'Economica';
+        font-style: normal;        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 56px;
+        gap: 16px;
+        align-items: center;
+
+    }
+}
