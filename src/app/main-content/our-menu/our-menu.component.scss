@@ -5,9 +5,22 @@
     background-repeat: no-repeat;
 
     table {
-        width: 300px;
+        width: 500px;
         height: 200px;
     }
+
+    table th{
+        font-size: 56px;
+        font-family: 'Economica';
+        text-align: start;
+    }
+
+    table td {
+        font-family: 'Raleway';
+        font-size: 32px;
+        color: #675E54;
+        font-weight: bold;
+    } 
 
     >div {
         display: flex;
@@ -25,5 +38,6 @@
 
     .menu_right {
         padding: 56px 0;
+        flex-direction: row-reverse;
     }
 }

@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .fontRaleway {
     font-family: 'Raleway';
 }
@@ -11,7 +15,8 @@ body {
 }
 
 .h1_title {
-    font-size: 64px;
+    font-family: 'Raleway';
+    font-size: 80px;
     color: #9F0908;
     text-align: center;
     margin-block-end: 0;
